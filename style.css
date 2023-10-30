@@ -1,0 +1,44 @@
+.wave:hover::after{
+    background-image: url(./images/wave.svg);
+    content: "";
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 3.5rem;
+    width: 5rem;
+    bottom: 1rem;
+    right: 0px;
+   
+}
+.wave1:hover{
+    background-image: url(./images/wave.svg);
+    content: "";
+    background-size: cover;
+    -webkit-background-position: center;
+    background-position: center;
+    position: relative;
+    height: 3.5rem;
+    width: 5rem;
+    bottom: 1rem;
+    right: 0px;
+    /* z-index: -1; */
+}
+.corefeaturesection{
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.companiesList {
+    animation: moving 5s linear infinite;
+  }
+
+  @keyframes moving {
+    0% {
+      top: 0;
+    }
+
+    100% {
+      top: -50%;
+    }
+  }
